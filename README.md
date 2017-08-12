@@ -2,7 +2,7 @@
 This is a pretty simple app to monitor /r/buildapcsales on reddit for headphone deals using PRAW and Twilio. However, it can be used to look for pretty much any type of deal on any subreddit. 
 
 ## Use
-To use, make sure you run <code>pip -r requirements.txt</code> and set the following environment variables for Twilio:
+To use, make sure you run <code>pip install -r requirements.txt</code> and set the following environment variables for Twilio:
 * TWILIO\_ACCOUNT\_SID -- your account sid from Twilio
 * TWILIO\_AUTH\_TOKEN  -- your auth token from Twilio
 * TWILIO\_NUMBER       -- your phone number from Twilio
